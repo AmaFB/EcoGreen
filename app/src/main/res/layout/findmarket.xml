@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bg_login2"
+    android:gravity="top"
+    android:orientation="vertical"
+    android:paddingTop="20dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:letterSpacing="0.15"
+        android:text="Find Eco Market"
+        android:textColor="#2E7706"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <view
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginTop="7dp"
+        class="com.google.android.material.appbar.AppBarLayout"
+        android:background="#9C9696">
+    </view>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="455dp"
+        android:layout_marginStart="-10dp"
+        android:layout_marginLeft="-10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="188dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="188dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginRight="15dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:text="AMMAN"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"></TextView>
+
+                <Button
+                    android:id="@+id/button1"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginRight="15dp"
+                    android:backgroundTint="#ccffcc"
+                    android:text="Abdali"
+                    android:textColor="#151414">
+
+                </Button>
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginRight="15dp"
+                    android:backgroundTint="#ccffcc"
+                    android:text="Abdoun"
+                    android:textColor="#151414">
+
+                </Button>
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginRight="15dp"
+                    android:backgroundTint="#ccffcc"
+                    android:text="Sweileh"
+                    android:textColor="#151414">
+
+                </Button>
+
+                <Button
+                    android:id="@+id/button4"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginRight="15dp"
+                    android:backgroundTint="#ccffcc"
+                    android:text="Swefieh"
+                    android:textColor="#151414">
+
+                </Button>
+
+                <Button
+                    android:id="@+id/button5"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginRight="15dp"
+                    android:backgroundTint="#ccffcc"
+                    android:text="University Street"
+                    android:textColor="#151414">
+
+                </Button>
+
+                <Button
+                    android:id="@+id/button6"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginRight="15dp"
+                    android:backgroundTint="#ccffcc"
+                    android:text="Jubeiha"
+                    android:textColor="#151414">
+
+                </Button>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="189dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginRight="50dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:gravity="center"
+                android:paddingBottom="5dp"
+                android:text="IRBID"
+                android:textColor="@color/black"
+                android:textSize="20dp"></TextView>
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="35dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="15dp"
+                android:backgroundTint="#ccffcc"
+                android:text="University Street"
+                android:textColor="#151414">
+
+            </Button>
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="35dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="15dp"
+                android:backgroundTint="#ccffcc"
+                android:text="AL WOROOD"
+                android:textColor="#151414">
+
+            </Button>
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="35dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="15dp"
+                android:backgroundTint="#ccffcc"
+                android:text="AL BASATIN"
+                android:textColor="#151414">
+
+            </Button>
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="35dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="15dp"
+                android:backgroundTint="#ccffcc"
+                android:text="Al naser"
+                android:textColor="#151414">
+
+            </Button>
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="35dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="15dp"
+                android:backgroundTint="#ccffcc"
+                android:text="al abrar"
+                android:textColor="#151414">
+
+            </Button>
+
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="35dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="15dp"
+                android:backgroundTint="#ccffcc"
+                android:text="AL MANARA"
+                android:textColor="#151414">
+
+            </Button>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp"
+        android:orientation="horizontal">
+
+
+        <ImageButton
+            android:id="@+id/imgFind"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:contentDescription="TODO"
+            app:srcCompat="@drawable/map"
+            tools:ignore="VectorDrawableCompat,SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/imgSus"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="-7dp"
+            android:layout_marginLeft="-7dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/sus"
+            tools:ignore="VectorDrawableCompat,SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/imgAct"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="-7dp"
+            android:layout_marginLeft="-7dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/bicycle0"
+            tools:ignore="VectorDrawableCompat,SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/imgPer"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="-7dp"
+            android:layout_marginLeft="-7dp"
+            android:layout_weight="1"
+            android:contentDescription="@string/todo0"
+            app:srcCompat="@drawable/header"
+            tools:ignore="VectorDrawableCompat,SpeakableTextPresentCheck,DuplicateSpeakableTextCheck" />
+    </LinearLayout>
+</LinearLayout>

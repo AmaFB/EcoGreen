@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "506708772508",
+    "project_id": "ecogreen-c35d1",
+    "storage_bucket": "ecogreen-c35d1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:506708772508:android:bd06435a82d3a59e108f59",
+        "android_client_info": {
+          "package_name": "com.example.ecogreen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "506708772508-1e3l3gcrmlp17hc14tok01gmvmna3nla.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ecogreen",
+            "certificate_hash": "1d67dbe5d398b9945cc47a222c67253f9c4909db"
+          }
+        },
+        {
+          "client_id": "506708772508-q1movuqap2en2j3nvp22p7p2q4ufpo1s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBwGWGW-uScJmysVqqp8XqBZW9DPq9FAU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "506708772508-q1movuqap2en2j3nvp22p7p2q4ufpo1s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

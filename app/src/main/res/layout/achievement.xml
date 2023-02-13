@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bg_login2"
+    android:gravity="top"
+    android:orientation="vertical"
+    android:paddingTop="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="576dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="85dp"
+            android:layout_marginLeft="85dp"
+            android:letterSpacing="0.15"
+            android:text="Achievements"
+            android:textColor="#2E7706"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+        <view
+            class="com.google.android.material.appbar.AppBarLayout"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="7dp"
+            android:background="#9C9696"></view>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center_horizontal"
+            android:text="Here you will see all the activities that have been selected for the day"
+            android:textAlignment="center"
+            android:textColor="#676565"
+            android:textSize="18sp" />
+
+        <ListView
+            android:id="@+id/ListView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:cacheColorHint="#151515" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal">
+
+
+        <ImageButton
+            android:id="@+id/imgFinds3"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:contentDescription="TODO"
+            app:srcCompat="@drawable/map"
+            tools:ignore="VectorDrawableCompat,SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/imgSuss3"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="-7dp"
+            android:layout_marginLeft="-7dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/sus"
+            tools:ignore="VectorDrawableCompat,SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/imgActs3"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="-7dp"
+            android:layout_marginLeft="-7dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/bicycle0"
+            tools:ignore="VectorDrawableCompat,SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/imgPers3"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="-7dp"
+            android:layout_marginLeft="-7dp"
+            android:layout_weight="1"
+            android:contentDescription="@string/todo0"
+            app:srcCompat="@drawable/header"
+            tools:ignore="VectorDrawableCompat,SpeakableTextPresentCheck,DuplicateSpeakableTextCheck" />
+
+    </LinearLayout>
+
+</LinearLayout>

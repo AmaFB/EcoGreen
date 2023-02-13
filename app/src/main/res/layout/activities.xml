@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bg_login2"
+    android:gravity="top"
+    android:orientation="vertical"
+    android:paddingTop="20dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="110dp"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="-12dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginRight="50dp"
+                android:letterSpacing="0.15"
+                android:text="@string/activities"
+                android:textColor="#2E7706"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                tools:targetApi="lollipop" />
+
+            <view
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                class="com.google.android.material.appbar.AppBarLayout"
+                android:background="#9C9696"
+                android:layout_marginTop="7dp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:gravity="center_horizontal"
+                android:text="Here you can choose the activities you did for the day"
+                android:textAlignment="center"
+                android:textSize="18sp" />/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="30dp"
+                android:layout_marginRight="30dp"
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="95dp"
+                    android:layout_height="144dp"
+                    android:layout_marginStart="140px"
+                    android:layout_marginLeft="140px"
+                    android:layout_marginTop="10dp"
+                    app:cardBackgroundColor="#FDFCFF"
+                    tools:ignore="ExtraText">>
+
+                    <CheckBox
+                        android:id="@+id/chBox1"
+                        android:layout_width="25dp"
+                        android:layout_height="21dp"
+                        android:layout_marginTop="80px"
+                        android:shadowColor="#4CAF50" />
+
+                    <TextView
+                        android:id="@+id/txt1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="80px"
+                        android:layout_marginLeft="80px"
+                        android:layout_marginTop="85px"
+                        android:includeFontPadding="false"
+                        android:text="Recycling"
+                        android:textColor="@color/black"
+                        android:textSize="12sp" />
+
+                    <ImageView
+                        android:id="@+id/img1"
+                        android:layout_width="82dp"
+                        android:layout_height="65dp"
+                        android:layout_marginStart="20px"
+                        android:layout_marginLeft="20px"
+                        android:layout_marginTop="180px"
+                        app:srcCompat="@drawable/recycle" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="95dp"
+                    android:layout_height="144dp"
+                    android:layout_marginStart="20px"
+                    android:layout_marginLeft="20px"
+                    android:layout_marginTop="10dp"
+                    app:cardBackgroundColor="#FDFCFF">
+
+                    app:cardBackgroundColor="#FDFCFF">
+
+                    <CheckBox
+                        android:id="@+id/chBox2"
+                        android:layout_width="25dp"
+                        android:layout_height="21dp"
+                        android:layout_marginTop="80px"
+                        android:shadowColor="#4CAF50"
+                        android:textColor="#673AB7" />
+
+                    <TextView
+                        android:id="@+id/txt2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="80px"
+                        android:layout_marginLeft="80px"
+                        android:layout_marginTop="85px"
+                        android:includeFontPadding="false"
+                        android:text="CO2 Reduced "
+                        android:textColor="@color/black"
+                        android:textSize="12sp" />
+
+                    <ImageView
+                        android:id="@+id/img2"
+                        android:layout_width="74dp"
+                        android:layout_height="63dp"
+                        android:layout_marginStart="20px"
+                        android:layout_marginLeft="20px"
+                        android:layout_marginTop="180px"
+                        app:srcCompat="@drawable/carbon" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="95dp"
+                    android:layout_height="144dp"
+                    android:layout_marginStart="20px"
+                    android:layout_marginLeft="20px"
+                    android:layout_marginTop="10dp"
+                    app:cardBackgroundColor="#FDFCFF">
+
+                    app:cardBackgroundColor="#FDFCFF">
+
+                    <CheckBox
+                        android:id="@+id/chBox3"
+                        android:layout_width="25dp"
+                        android:layout_height="21dp"
+                        android:layout_marginTop="80px"
+                        android:shadowColor="#4CAF50"
+                        android:textColor="#673AB7" />
+
+                    <TextView
+                        android:id="@+id/txt3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="80px"
+                        android:layout_marginLeft="80px"
+                        android:layout_marginTop="85px"
+                        android:includeFontPadding="false"
+                        android:text="Plastic Reduced"
+                        android:textColor="@color/black"
+                        android:textSize="12sp" />
+
+                    <ImageView
+                        android:id="@+id/img3"
+                        android:layout_width="78dp"
+                        android:layout_height="66dp"
+                        android:layout_marginStart="20px"
+                        android:layout_marginLeft="20px"
+                        android:layout_marginTop="180px"
+                        app:srcCompat="@drawable/plastic" />
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15px"
+                android:layout_marginEnd="30dp"
+                android:layout_marginRight="30dp"
+                android:orientation="horizontal">
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="95dp"
+                    android:layout_height="128dp"
+                    android:layout_marginStart="140px"
+                    android:layout_marginLeft="140px"
+                    android:layout_marginTop="10dp"
+                    app:cardBackgroundColor="#FDFCFF">>
+
+                    <CheckBox
+                        android:id="@+id/chBox4"
+                        android:layout_width="25dp"
+                        android:layout_height="21dp"
+                        android:shadowColor="#4CAF50" />
+
+                    <TextView
+                        android:id="@+id/txt4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="80px"
+                        android:layout_marginLeft="80px"
+                        android:includeFontPadding="false"
+                        android:text="Water Saved"
+                        android:textColor="@color/black"
+                        android:textSize="12sp" />
+
+                    <ImageView
+                        android:id="@+id/img4"
+                        android:layout_width="82dp"
+                        android:layout_height="65dp"
+                        android:layout_marginStart="20px"
+                        android:layout_marginLeft="20px"
+                        android:layout_marginTop="90px"
+                        app:srcCompat="@drawable/water" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="95dp"
+                    android:layout_height="128dp"
+                    android:layout_marginStart="20px"
+                    android:layout_marginLeft="20px"
+                    android:layout_marginTop="10dp"
+                    app:cardBackgroundColor="#FDFCFF">
+
+                    app:cardBackgroundColor="#FDFCFF">
+
+                    <CheckBox
+                        android:id="@+id/chBox5"
+                        android:layout_width="25dp"
+                        android:layout_height="21dp"
+                        android:shadowColor="#4CAF50"
+                        android:textColor="#673AB7" />
+
+                    <TextView
+                        android:id="@+id/txt5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="80px"
+                        android:layout_marginLeft="80px"
+                        android:includeFontPadding="false"
+                        android:text="Organic used"
+                        android:textColor="@color/black"
+                        android:textSize="12sp" />
+
+                    <ImageView
+                        android:id="@+id/img5"
+                        android:layout_width="74dp"
+                        android:layout_height="63dp"
+                        android:layout_marginStart="20px"
+                        android:layout_marginLeft="20px"
+                        android:layout_marginTop="90px"
+                        app:srcCompat="@drawable/organic" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="95dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="20px"
+                    android:layout_marginLeft="20px"
+                    android:layout_marginTop="10dp"
+                    app:cardBackgroundColor="#FDFCFF">
+
+                    app:cardBackgroundColor="#FDFCFF">
+
+                    <CheckBox
+                        android:id="@+id/chBox6"
+                        android:layout_width="25dp"
+                        android:layout_height="21dp"
+                        android:shadowColor="#4CAF50"
+                        android:textColor="#673AB7" />
+
+                    <TextView
+                        android:id="@+id/txt6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="80px"
+                        android:layout_marginLeft="80px"
+                        android:includeFontPadding="false"
+                        android:text="Land Saved"
+                        android:textColor="@color/black"
+                        android:textSize="12sp" />
+
+                    <ImageView
+                        android:id="@+id/img6"
+                        android:layout_width="78dp"
+                        android:layout_height="66dp"
+                        android:layout_marginStart="20px"
+                        android:layout_marginLeft="20px"
+                        android:layout_marginTop="90px"
+                        app:srcCompat="@drawable/plant" />
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="15px"
+                android:layout_marginEnd="30dp"
+                android:layout_marginRight="30dp"
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="302dp"
+                    android:layout_height="144dp"
+                    android:layout_marginStart="140px"
+                    android:layout_marginLeft="140px"
+                    android:layout_marginTop="10dp"
+                    app:cardBackgroundColor="#FDFCFF">
+
+                    app:cardBackgroundColor="#FDFCFF">
+
+
+                    <CheckBox
+                        android:id="@+id/chBox8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="34dp"
+                        android:layout_marginStart="270px"
+                        android:layout_marginLeft="270px"
+                        android:layout_marginTop="60px"
+                        android:text="Biking"
+                        android:textSize="12sp" />
+
+                    <ImageView
+                        android:id="@+id/img"
+                        android:layout_width="78dp"
+                        android:layout_height="66dp"
+                        android:layout_marginStart="20px"
+                        android:layout_marginLeft="20px"
+                        android:layout_marginTop="150px"
+                        app:srcCompat="@drawable/walking" />
+
+                    <CheckBox
+                        android:id="@+id/chBox7"
+                        android:layout_width="25dp"
+                        android:layout_height="21dp"
+                        android:layout_marginStart="10px"
+                        android:layout_marginLeft="10px"
+                        android:layout_marginTop="80px"
+                        android:shadowColor="#4CAF50"
+                        android:textColor="#673AB7" />
+
+                    <TextView
+                        android:id="@+id/txt7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="83px"
+                        android:layout_marginLeft="83px"
+                        android:layout_marginTop="85px"
+                        android:includeFontPadding="false"
+                        android:text="Walking"
+                        android:textColor="@color/black"
+                        android:textSize="12sp" />
+
+
+                    <ImageView
+                        android:id="@+id/img8"
+                        android:layout_width="78dp"
+                        android:layout_height="66dp"
+                        android:layout_marginStart="540px"
+                        android:layout_marginLeft="540px"
+                        android:layout_marginTop="150px"
+                        app:srcCompat="@drawable/bus" />
+
+                    <TextView
+                        android:id="@+id/txtTransport"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="300px"
+                        android:layout_marginLeft="300px"
+                        android:text="Transport"
+                        android:textColor="@color/black" />
+
+                    <CheckBox
+                        android:id="@+id/chBox9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="34dp"
+                        android:layout_marginStart="560px"
+                        android:layout_marginLeft="560px"
+                        android:layout_marginTop="60px"
+                        android:text="Bus"
+                        android:textSize="12sp" />
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="74dp"
+                        android:layout_height="66dp"
+                        android:layout_marginStart="270px"
+                        android:layout_marginLeft="270px"
+                        android:layout_marginTop="150px"
+                        app:srcCompat="@drawable/bicycle"
+                        tools:ignore="VectorDrawableCompat,SpeakableTextPresentCheck" />
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginLeft="40dp"
+                android:text="Add the details of your Activities"
+                android:textColor="#101010"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/editdet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginLeft="40dp"
+                android:ems="10"
+                android:hint="details"
+                android:inputType="textPersonName"
+                android:textColor="#121111"
+                android:textColorHint="#121111" />
+
+            <Button
+                android:id="@+id/Save_Activity"
+                android:layout_width="290dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="90dp"
+                android:layout_marginRight="90dp"
+                android:layout_marginBottom="15dp"
+                android:text="Submit "
+                app:backgroundTint="#00906b" />
+
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+
+        <ImageButton
+            android:id="@+id/imgFinds"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:contentDescription="TODO"
+            app:srcCompat="@drawable/map"
+            tools:ignore="VectorDrawableCompat,SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/imgSuss"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="-7dp"
+            android:layout_marginLeft="-7dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/sus"
+            tools:ignore="VectorDrawableCompat,SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/imgActs"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="-7dp"
+            android:layout_marginLeft="-7dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/bicycle0"
+            tools:ignore="VectorDrawableCompat,SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/imgPers"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="-7dp"
+            android:layout_marginLeft="-7dp"
+            android:layout_weight="1"
+            android:contentDescription="@string/todo0"
+            app:srcCompat="@drawable/header"
+            tools:ignore="VectorDrawableCompat,SpeakableTextPresentCheck,DuplicateSpeakableTextCheck" />
+
+    </LinearLayout>
+</LinearLayout>

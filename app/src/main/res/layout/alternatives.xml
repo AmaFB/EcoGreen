@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_login2"
+    android:gravity="top"
+    android:orientation="vertical"
+    android:paddingTop="20dp">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="5dp"
+        android:letterSpacing="0.15"
+        android:text="@string/sustainable_products"
+        android:textColor="#2E7706"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        tools:targetApi="lollipop" />
+
+    <view
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        class="com.google.android.material.appbar.AppBarLayout"
+        android:background="#9C9696"
+        android:layout_marginTop="7dp" />
+
+    <LinearLayout
+        android:layout_width="361dp"
+        android:layout_height="511dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:text="@string/eco_friendly_kitchen_products"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/txt1.1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="@string/hyperlink1.1"
+            android:textColor="@color/black"
+            android:textColorLink="@color/purple_700"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txt1.2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="3dp"
+            android:text="@string/hyperlink1.2"
+            android:textColor="@color/black"
+            android:textColorLink="@color/purple_700"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txt1.3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="3dp"
+            android:text="@string/hyperlink1.3"
+            android:textColor="@color/black"
+            android:textColorLink="@color/purple_700"
+            android:textSize="16sp" />
+
+        <view
+            class="com.google.android.material.appbar.AppBarLayout"
+            android:layout_width="378dp"
+            android:layout_height="2dp"
+            android:layout_marginTop="15dp"
+            android:background="#9C9696" />
+
+
+        <TextView
+            android:id="@+id/txt2"
+            android:layout_width="303dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/eco_friendly_cleaning_products"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txt2.1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="@string/hyperlink2.1"
+            android:textColor="@color/black"
+            android:textColorLink="@color/purple_700"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txt2.2"
+            android:layout_width="189dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="@string/hyperlink2.2"
+            android:textColor="@color/black"
+            android:textColorLink="@color/purple_700"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txt2.3"
+            android:layout_width="218dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="@string/hyperlink2.3"
+            android:textColor="@color/black"
+            android:textColorLink="@color/purple_700"
+            android:textSize="16sp" />
+
+        <view
+            class="com.google.android.material.appbar.AppBarLayout"
+            android:layout_width="378dp"
+            android:layout_height="2dp"
+            android:layout_marginTop="15dp"
+            android:background="#9C9696" />
+
+
+        <TextView
+            android:id="@+id/txt3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/eco_friendly_water_bottles_and_coffee_cups"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txt3.1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="@string/hyperlink3.1"
+            android:textColor="@color/black"
+            android:textColorLink="@color/purple_700"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txt3.2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="@string/hyperlink3.2"
+            android:textColor="@color/black"
+            android:textColorLink="@color/purple_700"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txt3.3"
+            android:layout_width="214dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="@string/hyperlink3.3"
+            android:textColor="@color/black"
+            android:textColorLink="@color/purple_700"
+            android:textSize="16sp" />
+
+        <view
+            class="com.google.android.material.appbar.AppBarLayout"
+            android:layout_width="378dp"
+            android:layout_height="2dp"
+            android:layout_marginTop="15dp"
+            android:background="#9C9696" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="111dp"
+            android:layout_height="76dp"
+            android:layout_marginStart="117dp"
+            android:layout_marginLeft="117dp"
+            android:layout_marginTop="7dp"
+            android:contentDescription="@string/todo"
+            app:srcCompat="@drawable/amazon"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/txt4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="139dp"
+            android:layout_marginLeft="139dp"
+            android:text="@string/hyperlink.end"
+            android:textColor="@color/black"
+            android:textColorHighlight="@color/purple_700"
+            android:textColorLink="@color/purple_700"
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/imgFindS"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:contentDescription="TODO"
+            app:srcCompat="@drawable/map"
+            tools:ignore="VectorDrawableCompat,SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/imgSuss"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="-7dp"
+            android:layout_marginLeft="-7dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/sus"
+            tools:ignore="VectorDrawableCompat,SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/imgActs"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="-7dp"
+            android:layout_marginLeft="-7dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/bicycle0"
+            tools:ignore="VectorDrawableCompat,SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/imgPers"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="-7dp"
+            android:layout_marginLeft="-7dp"
+            android:layout_weight="1"
+            android:contentDescription="@string/todo0"
+            app:srcCompat="@drawable/header"
+            tools:ignore="VectorDrawableCompat,SpeakableTextPresentCheck,DuplicateSpeakableTextCheck" />
+    </LinearLayout>
+</LinearLayout>

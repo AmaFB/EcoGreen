@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+
+    >
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Activities"
+            android:title="@string/activities_bar"
+            android:icon="@drawable/bicycle0"
+            />
+        <item
+            android:id="@+id/nav_sustainable"
+            android:title="@string/sustainable_products_bar"
+         />
+        <item
+            android:id="@+id/nav_Findmarket"
+            android:title="@string/find_market_bar"
+            android:icon="@drawable/search"/>
+
+        <item
+            android:id="@+id/nav_Personal"
+            android:title="@string/personal_page_bar"
+            android:icon="@drawable/header"/>
+
+        <item
+            android:id="@+id/nav_logout"
+            android:title="@string/logout_bar"
+            android:icon="@drawable/logout_icon"/>
+
+    </group>
+</menu>
